@@ -314,6 +314,7 @@ header .validation .register form input{
 .qp .row .content{
   flex: 1 1 45rem;
   text-align: center;
+  padding:2rem;
 }
 .qp .row .content h3{
   font-size: 2.5rem;
