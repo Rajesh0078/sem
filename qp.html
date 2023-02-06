@@ -104,4 +104,13 @@
     </section>
     
     <script src="script.js"></script>
+    <script>
+        let bar = document.querySelector('#bar-btn')
+        let nav = document.querySelector('#nav-list')
+
+        bar.addEventListener('click', ()=>{
+            bar.classList.toggle('fa-times')
+            nav.classList.toggle('active')
+        })
+    </script>
 </body>
